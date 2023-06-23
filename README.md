@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+
 <html>
 <head>
-  <title>My Website</title>
+  <title>WELCOME WTF!!</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -34,15 +34,15 @@
 </head>
 <body>
   <header>
-    <h1>Welcome to My Website</h1>
+    <h1>AQOUH LANG TO GUYS</h1>
   </header>
   
   <main>
     <h2>About Me</h2>
-    <p>Hello! I am a web developer.</p>
+    <p>Hello! My name is John Michael Caol-olan.. BOBO KA BA?.</p>
     
     <h2>Contact</h2>
-    <p>Email: info@example.com</p>
+    <p>Email: johnmichaeldelmiguez.caololan@bicol-u.edu.ph</p>
   </main>
   
   <footer>
