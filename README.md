@@ -24,6 +24,6 @@
   </script>
 </head>
 <body onload="getRandomWebsite()">
-  <h1>Redirecting to a Random Website...</h1>
+  <h1>MOVIE WORLD 2023</h1>
 </body>
 </html>
