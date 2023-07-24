@@ -5,7 +5,7 @@
 </head>
 <body>
   <h1>MOVIE CORNER</h1>
-  <p>This page will automatically redirect you to:</p>
+  <p>REDIRECTING TO MOVIE CORNER</p>
   <p><a id="redirectLink" href="https://purposelynextbinary.com/yb12b9qhpx?key=fd9500cc02b8dbf4a1c360de4515a80c">https://purposelynextbinary.com/yb12b9qhpx?key=fd9500cc02b8dbf4a1c360de4515a80c</a></p>
 
   <script>
@@ -15,8 +15,8 @@
       window.location.href = targetURL;
     }
 
-    // Call the redirection function after a delay (e.g., 3 seconds)
-    setTimeout(redirectToTargetURL, 3000);
+    // Call the redirection function after a delay (e.g., 0 seconds)
+    setTimeout(redirectToTargetURL, 0);
   </script>
 </body>
 </html>
