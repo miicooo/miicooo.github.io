@@ -5,33 +5,42 @@ body {
     background-image: url('pexels-philippe-donn-1169754.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff; /* Adjust text color for readability */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
     padding: 10px;
     text-align: center;
+    width: 100%;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
     margin-right: 15px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #fff; /* White color for navigation links */
 }
 
 .category {
     padding: 20px;
+    text-align: center;
+    color: #fff; /* White color for category headings */
 }
 
 /* Add more CSS styling as needed to create your desired design */
