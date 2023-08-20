@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/player.css">
-    <title>Free Movie Streaming</title>
+    <!-- Head content... -->
 </head>
 <body>
     <header>
-         <h1>STREAMFLIX</h1>
+        <h1>STREAMFLIX</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#action">Action</a></li>
-                <li><a href="#drama">Drama</a></li>
-                <li><a href="#anime">Anime</a></li>
+                <li><a href="main.html#home">Home</a></li>
+                <li><a href="main.html#action">Action</a></li>
+                <li><a href="main.html#drama">Drama</a></li>
+                <li><a href="main.html#anime">Anime</a></li>
                 <!-- Add more categories as needed -->
             </ul>
         </nav>
@@ -30,10 +27,8 @@
             <!-- Movie details... -->
         </div>
         <div class="movie-player">
-            <video controls>
-                <source src="movie_url_here.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <!-- Embed the YouTube video using an iframe -->
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
     
@@ -47,16 +42,9 @@
     
     <!-- Other sections and scripts... -->
     <script>
-        // Retrieve movie name and URL from URL parameters
+        // Retrieve movie name from URL parameter
         const urlParams = new URLSearchParams(window.location.search);
         const movieName = decodeURIComponent(urlParams.get("movie"));
-        const movieUrl = urlParams.get("url");
-
-        // Update video source with the correct movie URL
-        const videoElement = document.querySelector("video");
-        videoElement.src = movieUrl;
-        videoElement.querySelector("source").src = movieUrl;
-        videoElement.load();
 
         // Display movie name in the player
         const movieDetails = document.querySelector(".movie-details");
