@@ -30,28 +30,29 @@
             <!-- Movie details... -->
         </div>
         <div class="movie-player">
-            <!-- Embed the YouTube video using an iframe -->
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" frameborder="0" allowfullscreen></iframe>
+            <!-- Use JavaScript to extract the video query parameter and dynamically embed the video -->
+            <script>
+                const urlParams = new URLSearchParams(window.location.search);
+                const videoParam = urlParams.get("video");
+                const videoElement = document.createElement("iframe");
+                videoElement.width = "640";
+                videoElement.height = "360";
+                videoElement.src = `https://www.youtube.com/embed/${videoParam}`;
+                videoElement.frameBorder = "0";
+                videoElement.allowfullscreen = true;
+                document.querySelector(".movie-player").appendChild(videoElement);
+            </script>
         </div>
-    </section>
-    
-    <section id="suggested-movies" class="category">
-        <h2>Suggested Movies</h2>
-        <div class="scrollable-container">
-            <!-- Suggested movie links will be dynamically generated using script -->
-        </div>
-        <a href="main.html#home" class="see-all">See All</a>
     </section>
     
     <!-- Other sections and scripts... -->
     <script>
-        // Retrieve movie name from URL parameter
-        const urlParams = new URLSearchParams(window.location.search);
-        const movieName = decodeURIComponent(urlParams.get("movie"));
-
-        // Display movie name in the player
-        const movieDetails = document.querySelector(".movie-details");
-        movieDetails.innerHTML = `<h2>${movieName}</h2>`;
+        // Prevent form submission from refreshing the page
+        const searchForm = document.getElementById("search-form");
+        searchForm.addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent default form submission
+            // Add your search logic here
+        });
     </script>
 </body>
 </html>
