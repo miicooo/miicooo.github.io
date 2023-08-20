@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head content... -->
+</head>
+<body>
+    <header>
+        <!-- Header content... -->
+    </header>
+    
+    <section id="player" class="category">
+        <h2>Movie Player</h2>
+        <div class="movie-details">
+            <!-- Movie details... -->
+        </div>
+        <div class="movie-player">
+            <video controls>
+                <source src="movie_url_here.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    
+    <section id="suggested-movies" class="category">
+        <h2>Suggested Movies</h2>
+        <div class="scrollable-container">
+            <!-- Suggested movie links will be dynamically generated using script -->
+        </div>
+        <a href="main.html#home" class="see-all">See All</a>
+    </section>
+    
+    <!-- Other sections and scripts... -->
+    <script>
+        // Retrieve movie name and URL from URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const movieName = decodeURIComponent(urlParams.get("movie"));
+        const movieUrl = urlParams.get("url");
+
+        // Update video source with the correct movie URL
+        const videoElement = document.querySelector("video");
+        videoElement.src = movieUrl;
+        videoElement.querySelector("source").src = movieUrl;
+        videoElement.load();
+
+        // Display movie name in the player
+        const movieDetails = document.querySelector(".movie-details");
+        movieDetails.innerHTML = `<h2>${movieName}</h2>`;
+    </script>
+</body>
+</html>
