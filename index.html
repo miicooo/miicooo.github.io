@@ -3,13 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Streaming Website</title>
 </head>
 <body>
-    <h1>Welcome to our Streaming Website</h1>
-    <ul>
-        <li><a href="videos/video1.mp4">Video 1</a></li>
-        <li><a href="videos/video2.mp4">Video 2</a></li>
-    </ul>
+    <header>
+        <h1>Welcome to StreamFlix!</h1>
+    </header>
+    <main>
+        <video controls>
+            <source src="videos/video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </main>
+    <footer>
+        <p>&copy; 2023 StreamFlix</p>
+    </footer>
 </body>
 </html>
