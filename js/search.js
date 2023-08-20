@@ -1,5 +1,4 @@
 document.getElementById('search-form').addEventListener('submit', function(event) {
-    alert('Form submitted'); // Test alert
     event.preventDefault();
     const searchTerm = document.getElementById('search-input').value.toLowerCase();
     const movieLinks = document.querySelectorAll('.category a');
