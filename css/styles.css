@@ -40,7 +40,26 @@ nav ul li a {
 .category {
     padding: 20px;
     text-align: center;
-    color: #fff; /* White color for category headings */
 }
 
-/* Add more CSS styling as needed to create your desired design */
+/* Add the new CSS code snippet below the existing styles */
+.category a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.category img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.category h2 {
+    font-size: 1.2em;
+    margin: 0;
+}
