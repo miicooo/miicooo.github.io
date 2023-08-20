@@ -75,3 +75,33 @@ nav ul li a {
         max-width: 40%; /* Adjust the value for smaller screens */
     }
 }
+ .category {
+            overflow-x: scroll; /* Enable horizontal scrolling */
+            white-space: nowrap;
+        }
+
+        .category a {
+            display: inline-block;
+            text-decoration: none;
+            color: #333;
+            margin-right: 15px;
+            max-width: 200px; /* Adjust as needed */
+        }
+
+        .category img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .category h2 {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        .see-all {
+            display: block;
+            margin-top: 10px;
+            color: #333;
+            text-decoration: none;
+        }
