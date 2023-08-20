@@ -72,6 +72,6 @@ nav ul li a {
 /* Add the responsive design media query below the existing styles */
 @media (max-width: 768px) {
     .category img {
-        max-width: 80%; /* Adjust the value for smaller screens */
+        max-width: 40%; /* Adjust the value for smaller screens */
     }
 }
