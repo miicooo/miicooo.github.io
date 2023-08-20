@@ -46,6 +46,7 @@ nav ul li a {
 
 /* Apply consistent dimensions to movie posters */
 .category a img {
+    #selected-movie img {
     max-width: 200px; /* Set the desired width */
     height: auto;
     object-fit: cover;
